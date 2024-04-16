@@ -28,7 +28,7 @@ class Student {
         this.maxItnAllowed = maxItnAllowed;
     }
 
-    // Getters and setters for personal information
+
     public String getFirstName() {
         return firstName;
     }
@@ -61,7 +61,7 @@ class Student {
         this.address = address;
     }
 
-    // Getters and setters for student-specific information
+
     public String getIndexNumber() {
         return indexNumber;
     }
@@ -124,7 +124,7 @@ class StudyProgram {
         this.maxItnAllowed = maxItnAllowed;
     }
 
-    // Getters and setters
+
     public String getProgramName() {
         return programName;
     }
@@ -198,10 +198,8 @@ class StudentInfo {
 
         studentList.add(s);
 
-        // Promote students
         promoteAllStudents();
 
-        // Display student info
         displayInfoAboutAllStudents();
     }
 }
